@@ -1,0 +1,224 @@
+.hero-section {
+    position: relative;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url('background.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.hero-content {
+    max-width: 800px;
+    padding: 2rem;
+    z-index: 2;
+}
+
+.hero-content h1 {
+    font-size: clamp(2.5rem, 8vw, 4rem);
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+    font-weight: 800;
+    text-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.hero-content p {
+    font-size: 1.25rem;
+    margin-bottom: 2.5rem;
+    opacity: 0.9;
+}
+
+/* Navbar Extension */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1.25rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    transition: all 0.4s ease;
+    background: transparent;
+}
+
+.navbar.scrolled {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+    padding: 0.75rem 5%;
+}
+
+.navbar.scrolled .nav-links a, .navbar.scrolled .logo-text {
+    color: var(--text-main);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+}
+
+.logo img { height: 45px; }
+.logo-text {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: white;
+    letter-spacing: -0.5px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover { color: var(--primary); }
+
+/* Sections */
+.section-padding { padding: 6rem 5%; }
+
+.section-title {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.section-title h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-main);
+}
+
+.section-title p {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+}
+
+/* Services Grid */
+.grid-services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2.5rem;
+}
+
+.service-card {
+    background: white;
+    padding: 3rem 2rem;
+    border-radius: var(--radius-lg);
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 1px solid #E2E8F0;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: var(--shadow-xl);
+    border-color: var(--primary);
+}
+
+.service-icon {
+    width: 80px;
+    height: 80px;
+    background: rgba(14, 165, 233, 0.1);
+    color: var(--primary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 0 auto 1.5rem;
+}
+
+/* Features List */
+.features-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.features-list {
+    list-style: none;
+}
+
+.features-list li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.features-list li i { color: #10B981; }
+
+/* Feedback Area */
+.feedback-section {
+    background: #F8FAFC;
+    border-radius: var(--radius-2xl);
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 4rem;
+    margin: 0 5%;
+}
+
+.feedback-form input, .feedback-form textarea {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-radius: var(--radius-md);
+    border: 1px solid #CBD5E1;
+}
+
+/* Footer */
+.main-footer {
+    background: #0F172A;
+    color: #94A3B8;
+    padding: 5rem 5% 2rem;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 4rem;
+    margin-bottom: 4rem;
+}
+
+.footer-col h4 {
+    color: white;
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.footer-col ul { list-style: none; }
+.footer-col ul li { margin-bottom: 0.75rem; }
+.footer-col a { color: inherit; text-decoration: none; transition: color 0.3s; }
+.footer-col a:hover { color: white; }
+
+.footer-bottom {
+    padding-top: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 968px) {
+    .features-container { grid-template-columns: 1fr; }
+    .feedback-section { grid-template-columns: 1fr; padding: 2rem; }
+    .footer-grid { grid-template-columns: 1fr 1fr; }
+    .nav-links { display: none; } /* Add burger menu later if needed */
+}

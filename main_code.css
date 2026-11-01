@@ -1,0 +1,970 @@
+html,body{
+overflow-x:hidden;
+margin:0;
+padding:0;
+width:100%;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.login-form, .profile-page {
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.login-form input, .login-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+.login-form button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+}
+.button{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    border: none; /* Remove border */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.button-style:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.desktop-1 {
+ background: #36c7c7;
+  width: 100%;
+  position: fixed;
+min-height:50px;
+  left: 0px;
+padding:10px o;
+  top: 0px;
+  overflow: hidden;
+z-index: 1000;
+}
+
+.image-1 {
+  width: 35px;
+  height: 45px;
+  position: absolute;
+  left: 215px;
+  top: 5px;
+  
+}
+a{
+	color:white;
+	text-decoration:none;
+}
+.Connect {
+ color: white;
+  text-align: left;
+  font-family: "Jaldi-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 1050px;
+  top: 15px;
+  width: 75px;
+  height: 40.07px;
+cursor: pointer;
+}
+
+.Connect:hover {
+    text-decoration: underline;
+
+}
+.doctors {
+ color: white;
+  text-align: left;
+  font-family: "Jaldi-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 960px;
+  top: 15px;
+  width: 75px;
+  height: 40.07px;
+cursor: pointer;
+}
+
+.doctors:hover {
+    text-decoration: underline;
+
+}
+
+.services {
+  color: white;
+  text-align: left;
+  font-family: "Jaldi-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 860px;
+  top: 15px;
+  width: 75px;
+  height: 40.07px;
+cursor: pointer;
+}
+
+.services:hover {
+    text-decoration: underline;
+
+}
+.about-us {
+  color: white;
+  text-align: left;
+  font-family: "Jaldi-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 750px;
+  top: 15px;
+  width: 84px;
+  height: 40.07px;
+cursor: pointer;
+}
+
+.about-us:hover {
+    text-decoration: underline;
+
+}
+.home {
+  color: white;
+  text-align: left;
+  font-family: "Jaldi-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 660px;
+  top: 15px;
+  width: 57px;
+  height: 40.07px;
+cursor: pointer;
+}
+
+.home:hover {
+    text-decoration: underline;
+
+}
+#registration {
+    text-align: center;
+    font-family: "Jaldi-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    left: 1180px; /* Adjust as needed */
+    top: 6px; /* Adjust as needed */
+    width: 90px; /* Fixed width */
+    height: 30px; /* Fixed height */
+    background-color: gold;
+    border-radius: 20px;
+    padding: 5px 10px; /* Adjust padding for better spacing */
+    border: none;
+    cursor: pointer;
+    color: white; /* Ensure text is visible */
+    text-decoration: none; /* Remove underline */
+    display: flex; /* Center text vertically and horizontally */
+    align-items: center;
+    justify-content: center;
+}
+
+#registration:hover {
+    background-color: #28a6a9;
+}
+
+#login {
+    text-align: center;
+    font-family: "Jaldi-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    left: 1300px; /* Adjust as needed */
+    top: 6px; /* Adjust as needed */
+    width: 50px; /* Fixed width */
+    height: 30px; /* Fixed height */
+    background-color: gold;
+    border-radius: 20px;
+    padding: 5px 10px; /* Adjust padding for better spacing */
+    border: none;
+    cursor: pointer;
+    color: white; /* Ensure text is visible */
+    text-decoration: none; /* Remove underline */
+    display: flex; /* Center text vertically and horizontally */
+    align-items: center;
+    justify-content: center;
+}
+
+#login:hover {
+    background-color: #28a6a9;
+}
+#profile {
+    text-align: center;
+    font-family: "Jaldi-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    left: 1180px; /* Adjust as needed */
+    top: 6px; /* Adjust as needed */
+    width: 90px; /* Fixed width */
+    height: 30px; /* Fixed height */
+    background-color: #4CAF50;
+    border-radius: 20px;
+    padding: 5px 8px; /* Adjust padding for better spacing */
+    border: none;
+    cursor: pointer;
+    color: white; /* Ensure text is visible */
+    text-decoration: none; /* Remove underline */
+    display: flex; /* Center text vertically and horizontally */
+    align-items: center;
+    justify-content: center;
+}
+
+#profile:hover {
+    background-color: #28a6a9;
+}
+
+#logout {
+    text-align: center;
+    font-family: "Jaldi-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    left: 1300px; /* Adjust as needed */
+    top: 6px; /* Adjust as needed */
+    width: 50px; /* Fixed width */
+    height: 30px; /* Fixed height */
+    background-color: #4CAF50;
+    border-radius: 20px;
+    padding: 5px 15px; /* Adjust padding for better spacing */
+    border: none;
+    cursor: pointer;
+    color: white; /* Ensure text is visible */
+    text-decoration: none; /* Remove underline */
+    display: flex; /* Center text vertically and horizontally */
+    align-items: center;
+    justify-content: center;
+}
+
+#logout:hover {
+    background-color: #28a6a9;
+}
+
+.Dentrics {
+  color: red;
+  text-align: left;
+  font-family: "Jaldi-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 35px;
+  top: 10px;
+  width: 57px;
+  height: 40.07px;
+}
+#text {
+font-size:35px;
+text-align:left;
+position: absolute;
+  left: 450px;
+font-family: "Didot";
+top:580px;
+}
+
+.text-10{
+font-size:20px;
+color:black;
+text-align:left;
+position:absolute;
+top:250px;
+left:40px;
+}
+
+
+.image-2{
+width:1560px;
+height:500px;
+position: relative;
+  left: 0px;
+  top: 50px;
+}
+
+.text-1{
+font-size:20px;
+color:black;
+text-align:left;
+position:absolute;
+top:140px;
+}
+
+#image-3{
+width:400px;
+height:300px;
+position:relative;
+top:75px;
+left:30px;
+}
+
+#rectangle-2 {
+  background: #056C77;
+  width: 100%;
+  height: 500px;
+  position: relative;
+  left: 0px;
+  top: 100px;
+}
+
+.rectangle-3 {
+  background: #F9F8F8;
+  width: 100%;
+  height: 500px;
+  position: relative;
+  left: 0px;
+  top: 100px;
+}
+
+
+#book1{
+  color: Black;
+  text-align:center;
+  font-family: "Jaldi-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 550;
+  position: absolute;
+  left: 90px;
+  top: 320px;
+  width: 300px;
+  height: 50px;
+background-color: #FFC90E;
+    color: black;
+    border-radius: 50px;
+border:none;
+    padding: 0px 0px;
+  cursor: pointer;
+}
+
+#book1:hover {
+    background-color: #28a6a9;
+
+}
+#text-12{
+font-size:20px;
+color:white;
+text-align:center;
+position:absolute;
+top:900px;
+left:450px;
+}
+.text-13{
+font-size:30px;
+color:black;
+text-align:center;
+position:absolute;
+top:1450px;
+left:600px;
+}
+
+.text-9{
+font-size:30px;
+color:red;
+position:absolute;
+left:500px;
+top:2700px;
+}
+.rectangle-4 {
+  background: lightblue;
+  width: 100%;
+  height: 500px;
+  position: relative;
+  left: 0px;
+  top: 100px;
+}
+.image-4{
+position:relative;
+top:-400px;
+width:400px;
+height:300;
+right:-950px
+}
+
+.text-5{
+font-size:30px;
+color:black;
+position:relative;
+top:-400px;
+left:400px;
+}
+
+.text-6{
+font-size:25px;
+color:black;
+position:relative;
+top:-700px;
+left:90px;
+}
+
+}
+.rectangle-6 {
+  background: white;
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  left: 0px;
+  top: 2000px;
+}
+.feed {
+font-size:30px;
+color:black;
+position:absolute;
+top:3140px;
+left:630px;
+}
+
+#rectangle-7 {
+  background: linear-gradient(to left,white,#00A2E8);
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  left: 0px;
+  top: 2800px;
+}
+.visit {
+font-size:20px;
+color:white;
+position:absolute;
+top:2800px;
+left:200px;
+}
+
+.begin {
+font-size:20px;
+color:white;
+position:absolute;
+top:2860px;
+left:175px;
+}
+.no{
+font-size:18px;
+color:black;
+position:absolute;
+top:2815px;
+left:950px;
+}
+
+.rectangle-8 {
+  background: black;
+  width: 100%;
+  height: 305px;
+  position: absolute;
+  left: 0px;
+  top: 2900px;
+}
+
+.contact{
+font-size:20px;
+color:white;
+position:absolute;
+top:2900px;
+left:170px;
+}
+.about{
+font-size:20px;
+color:white;
+position:absolute;
+top:2900px;
+left:680px;
+}
+.dent{
+font-size:20px;
+color:white;
+position:absolute;
+top:2900px;
+left:980px;
+}
+.ent{
+font-size:15px;
+color:white;
+position:absolute;
+top:3155px;
+left:620px;
+}
+
+.card1{
+    background-color: white;
+    color: #046b75;
+position:absolute;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+height:250px;
+    text-align: center;
+left:-300px;
+top:150px;
+}
+
+.card2{
+    background-color: white;
+    color: #046b75;
+position:absolute;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+height:250px;
+    text-align: center;
+left:150px;
+top:150px;
+}
+
+.card3{
+    background-color: white;
+    color: #046b75;
+position:absolute;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+height:250px;
+    text-align: center;
+left:600px;
+top:150px;
+}
+
+.b1 {
+    background-color: #33c6cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.b1:hover {
+    background-color: #28a6a9;
+}
+
+.b2 {
+    background-color: #33c6cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+margin-top:65px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.b2:hover {
+    background-color: #28a6a9;
+}
+
+.b3 {
+    background-color: #33c6cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+margin-top:45px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.b3:hover {
+    background-color: #28a6a9;
+}
+
+.dental{
+font-size:20px;
+position:absolute;
+left:-400px;
+top:120px;
+}
+
+.teeth1{
+font-size:20px;
+position:absolute;
+left:100px;
+top:120px;
+}
+
+.braces{
+font-size:20px;
+position:absolute;
+left:500px;
+top:120px;
+}
+
+.root{
+font-size:20px;
+position:absolute;
+left:-400px;
+top:320px;
+}
+
+.regular{
+font-size:20px;
+position:absolute;
+left:100px;
+top:320px;
+}
+
+.tooth1{
+font-size:20px;
+position:absolute;
+left:520px;
+top:320px;
+}
+
+.di{
+font-size:12;
+position:absolute;
+left:-500;
+top:140;
+}
+
+.yy{
+font-size:12;
+position:absolute;
+left:40;
+top:140;
+}
+
+.dd{
+font-size:12;
+position:absolute;
+left:450;
+top:140;
+}
+
+.ee{
+font-size:12;
+position:absolute;
+left:-470;
+top:340;
+}
+
+.ff{
+font-size:12;
+position:absolute;
+left:20;
+top:340;
+}
+
+.gg{
+font-size:12;
+position:absolute;
+left:410;
+top:340;
+}
+
+.image50{
+position:absolute;
+width:80px;
+height:80px;
+left:-380;
+top:50px;
+}
+.image51{
+position:absolute;
+width:80px;
+height:80px;
+left:130;
+top:50px;
+}
+.image52{
+position:absolute;
+width:80px;
+height:80px;
+left:530;
+top:250px;
+}
+#link1{
+text-decoration:none;
+color:white;
+}
+.image53{
+position:absolute;
+width:80px;
+height:80px;
+left:-380;
+top:250px;
+}
+.image54{
+position:absolute;
+width:80px;
+height:80px;
+left:130;
+top:250px;
+}
+.image55{
+position:absolute;
+width:100px;
+height:100px;
+left:540;
+top:45px;
+}
+
+.card10{
+    background-color: white;
+    color: #046b75;
+position:absolute;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 200px;
+height:250px;
+    text-align: center;
+left:-300px;
+top:120px;
+ cursor: pointer;
+}
+
+.card10:hover {
+    background-color: lightgrey;
+}
+
+
+.card11{
+    background-color: white;
+    color: #046b75;
+position:absolute;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 200px;
+height:250px;
+    text-align: center;
+left:150px;
+top:120px;
+ cursor: pointer;
+}
+
+.card11:hover {
+    background-color: lightgrey;
+}
+
+
+.card12{
+    background-color: white;
+    color: #046b75;
+position:absolute;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 200px;
+height:250px;
+    text-align: center;
+left:600px;
+top:120px;
+ cursor: pointer;
+}
+
+.card12:hover {
+    background-color: lightgrey;
+}
+
+
+.text80{
+font-size:15px;
+position:absolute;
+top:160px;
+left:65px;
+}
+.text81{
+font-size:15px;
+position:absolute;
+top:190px;
+left:100px;
+}
+
+.text87{
+font-size:15px;
+position:absolute;
+top:210px;
+left:75px;
+}
+
+.text83{
+font-size:15px;
+position:absolute;
+top:160px;
+left:65px;
+}
+.text84{
+font-size:15px;
+position:absolute;
+top:190px;
+left:80px;
+}
+
+.text88{
+font-size:15px;
+position:absolute;
+top:210px;
+left:80px;
+}
+
+.text85{
+font-size:15px;
+position:absolute;
+top:160px;
+left:55px;
+}
+.text86{
+font-size:15px;
+position:absolute;
+top:190px;
+left:90px;
+}
+
+.text89{
+font-size:15px;
+position:absolute;
+top:210px;
+left:70px;
+}
+
+.bgclr{
+position:absolute;
+width:100%;
+height:400px;
+top:2400px;
+}
+
+.card20{
+    background-color: white;
+    color: #046b75;
+position:absolute;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 500px;
+height:270px;
+    text-align: center;
+left:700px;
+top:2450px;
+}
+
+.contact-form h2{
+font-size:30px;
+margin-bottom:10px;
+color:black;
+}
+
+.contact-form input{
+width:100%;
+padding:10px;
+margin:8px 0;
+border:1px solid #ccc;
+border-radius:5px;
+font-size:14px;
+}
+
+.contact-form input:focus{
+outline:none;
+border-color:#007BFF;
+}
+
+.contact-form button{
+background-color:#FF6F00;
+color:white;
+border:none;
+padding:10px;
+border-radius:5px;
+font-size:14px;
+cursor:pointer;
+width:50%;
+margin-top:10px;
+}
+
+.contact-form button:hover{
+background-color:#E65A00;
+}
+
+.text100{
+font-size:30px;
+color:white;
+position:absolute;
+left:-600px;
+top:70px;
+}
+
+.text101{
+font-size:30px;
+color:yellow;
+position:absolute;
+left:-500px;
+top:180px;
+}
+
+#book{
+  
+  text-align: center;
+  font-family: "Jaldi-Regular", sans-serif;
+  font-size: 18px;
+  font-weight:500px;
+  position: absolute;
+  left: 1180px;
+  top: 2832px;
+  width: 140px;
+  height: 40px;
+  background-color:#FFC90E;
+  color:white;
+  border-radius: 20px;
+border:none;
+  padding: 8px 10px;
+cursor: pointer;
+}
+
+#book:hover {
+    background-color: #28a6a9;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

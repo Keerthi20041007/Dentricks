@@ -1,0 +1,180 @@
+  * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        
+        body {
+
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+.image1{
+width:100%;
+height:645px;
+position:absolute;
+top:50px;
+}
+.desktop-1 {
+ background: #36c7c7;
+  width: 100%;
+  position: fixed;
+min-height:50px;
+  left: 0px;
+padding:10px o;
+  top: 0px;
+  overflow: hidden;
+z-index: 1000;
+}
+.doctors {
+ color: white;
+  text-align: left;
+  font-family: "Jaldi-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 1200px;
+  top: 15px;
+  width: 75px;
+  height: 40.07px;
+cursor: pointer;
+}
+
+.doctors:hover {
+    text-decoration: underline;
+
+}
+
+.services {
+  color: white;
+  text-align: left;
+  font-family: "Jaldi-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 1080px;
+  top: 15px;
+  width: 75px;
+  height: 40.07px;
+cursor: pointer;
+}
+
+.services:hover {
+    text-decoration: underline;
+
+}
+.image-1 {
+  width: 35px;
+  height: 45px;
+  position: absolute;
+  left: 210px;
+  top: 5px;
+  
+}
+a{
+	color:white;
+	text-decoration:none;
+}
+.home {
+  color: white;
+  text-align: left;
+  font-family: "Jaldi-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 980px;
+  top: 15px;
+  width: 57px;
+  height: 40.07px;
+cursor: pointer;
+}
+
+.home:hover {
+    text-decoration: underline;
+
+}
+.Dentrics {
+  color: red;
+  text-align: left;
+  font-family: "Jaldi-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 35px;
+  top: 10px;
+  width: 57px;
+  height: 40.07px;
+}
+
+
+       
+        .login-container {
+            background-color: rgba(255, 255, 255, 0.8); 
+	    position:absolute;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: lightblue;
+        }
+
+        .forgot-password {
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+            color:#0000FF;
+        }
+
+        .forgot-password:hover {
+            text-decoration: underline;
+        }
+
+        .register-link {
+            margin-top: 20px;
+            font-size: 12px;
+        }
+
+        .register-link a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        .register-link a:hover {
+            text-decoration: underline;
+        }

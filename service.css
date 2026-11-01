@@ -1,0 +1,171 @@
+html, body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.desktop-1 {
+    background: #36c7c7;
+    width: 100%;
+    position: fixed;
+    min-height: 50px;
+    left: 0px;
+    padding: 10px 0;
+    top: 0px;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.image-1 {
+    width: 35px;
+    height: 45px;
+    position: absolute;
+    left: 195px;
+    top: 8px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.Connect {
+    color: white;
+    text-align: left;
+    font-family: "Jaldi-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    left: 1050px;
+    top: 15px;
+    width: 75px;
+    height: 40.07px;
+    cursor: pointer;
+}
+
+.Connect:hover {
+    text-decoration: underline;
+}
+
+.doctors {
+    color: white;
+    text-align: left;
+    font-family: "Jaldi-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    left: 1200px;
+    top: 15px;
+    width: 75px;
+    height: 40.07px;
+    cursor: pointer;
+}
+
+.doctors:hover {
+    text-decoration: underline;
+}
+
+.home {
+    color: white;
+    text-align: left;
+    font-family: "Jaldi-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    left: 1100px;
+    top: 15px;
+    width: 57px;
+    height: 40.07px;
+    cursor: pointer;
+}
+
+.home:hover {
+    text-decoration: underline;
+}
+
+.Dentrics {
+    color: red;
+    text-align: left;
+    font-family: "Jaldi-Regular", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    position: absolute;
+    left: 35px;
+    top: 10px;
+    width: 57px;
+    height: 40.07px;
+}
+
+.rectangle-8 {
+    background: black;
+    width: 100%;
+    height: 305px;
+    position: absolute;
+    left: 0px;
+    top: 600px;
+}
+
+.contact {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 610px;
+    left: 170px;
+}
+
+.about {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 610px;
+    left: 680px;
+}
+
+.dent {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 610px;
+    left: 980px;
+}
+
+.ent {
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 850px;
+    left: 620px;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 80px; /* Adjust based on your header height */
+}
+
+.service-card {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.service-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.service-card h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.service-card p {
+    font-size: 16px;
+    color: #555;
+}

@@ -1,0 +1,152 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, #2D419A, #1FEFF9);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Header Styles */
+.desktop-1 {
+    background: #36c7c7;
+    width: 100%;
+    position: fixed;
+    min-height: 50px;
+    left: 0;
+    top: 0;
+    padding: 10px 0;
+    overflow: hidden;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Dentrics {
+    color: red;
+    font-family: "Jaldi-Regular", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.image-1 {
+  width: 40px;
+  height: 45px;
+  position: absolute;
+  left: 195px;
+  top: 7px;
+  
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 100px;
+}
+
+.nav-links a, .nav-links button {
+    color: white;
+    font-family: "Jaldi-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.nav-links a:hover, .nav-links button:hover {
+    text-decoration: underline;
+}
+
+#registration, #login {
+    background-color: gold;
+    border-radius: 20px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#registration:hover, #login:hover {
+    background-color: #28a6a9;
+}
+
+/* Doctors Section */
+.doctor-container {
+    display: flex;
+    flex-direction: row; /* Change to row for side-by-side layout */
+    justify-content: center;
+    gap: 30px; /* Increased gap between cards */
+    padding: 20px;
+    margin-top: 60px; /* Adjust for fixed header */
+    flex-wrap: wrap; /* Allow wrapping to next row if needed */
+}
+
+.profile-card {
+    background-color: black; /* Full black background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    padding: 30px;
+}
+
+.profile-card h2 {
+    margin-top: 0;
+    color: white; /* Text color for readability on black background */
+}
+
+.profile-card p {
+    margin: 10px 0;
+    color: #ccc; /* Light gray for contrast on black background */
+}
+
+.profile-card strong {
+    color: white; /* Bold text in white for headings */
+}
+
+/* Footer Styles */
+
+.rectangle-8 {
+    background: black;
+    width: 100%;
+    height: 305px;
+    position: absolute;
+    left: 0;
+    top: 500px;
+}
+.contact{
+font-size:20px;
+color:white;
+position:absolute;
+top:510px;
+left:170px;
+}
+.about{
+font-size:20px;
+color:white;
+position:absolute;
+top:510px;
+left:680px;
+}
+.dent{
+font-size:20px;
+color:white;
+position:absolute;
+top:510px;
+left:980px;
+}
+.ent{
+font-size:15px;
+color:white;
+position:absolute;
+top:750px;
+left:620px;
+}
