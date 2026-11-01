@@ -74,35 +74,6 @@ $sql = "CREATE TABLE IF NOT EXISTS admins (
 )";
 $conn->query($sql);
 
-// -------------------- INSERT DEFAULT ADMIN (ONLY ONCE) --------------------
-$username = "admin";
-$password = "admin123";
-$hashed_password = password_hash($password, PASSWORD_DEFAULT);
-
-// Check if admin already exists
-$check = $conn->prepare("SELECT id FROM admins WHERE username = ?");
-$check->bind_param("s", $username);
-$check->execute();
-$check->store_result();
-
-if ($check->num_rows == 0) {
-    $stmt = $conn->prepare("INSERT INTO admins (username, password) VALUES (?, ?)");
-    $stmt->bind_param("ss", $username, $hashed_password);
-
-    if ($stmt->execute()) {
-        echo "Admin user created successfully.<br>";
-    } else {
-        echo "Error inserting admin: " . $stmt->error . "<br>";
-    }
-
-    $stmt->close();
-} else {
-    echo "Admin already exists.<br>";
-}
-
-$check->close();
-
-
 $conn = new mysqli('localhost', 'root', '', 'dental');
 
 if ($conn->connect_error) {
